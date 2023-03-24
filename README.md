@@ -1,3 +1,12 @@
+# Bienvenido al Practico 01 de Machine learning en Producción
+
+En este practico abordaremos algunos conceptos basicos sobre: 
+
+- Git 
+- Docker
+- Dependencias en Python
+- Además veremos un ejemplo que engloba todos los puntos. 
+
 ### Que es Git? 
 
 Git es un sistema de control de versiones de software libre y de código abierto diseñado para manejar proyectos de cualquier tamaño con velocidad y eficiencia. 
@@ -156,6 +165,4 @@ Las dependencias son importantes porque permiten a los desarrolladores de Python
 Bibliotecas de Python: Se enumeran las bibliotecas de terceros que se utilizan en la aplicación, junto con sus versiones específicas (si no se encuentra la versión especificada el sistema se encargara de tomar la versión). 
 
 Por ejemplo, `requests==2.25.1` especifica la biblioteca Requests en la versión 2.25.1. y `requests`, no especifica la versión. 
-
-
 
