@@ -1,4 +1,4 @@
-# Bienvenido al Practico 01 de Machine learning en Producción
+# Practico 01 de Machine learning en Producción
 
 En este practico abordaremos algunos conceptos basicos sobre: 
 
@@ -7,7 +7,7 @@ En este practico abordaremos algunos conceptos basicos sobre:
 - Dependencias en Python
 - Además veremos un ejemplo que engloba todos los puntos. 
 
-### Que es Git? 
+# Git
 
 Git es un sistema de control de versiones de software libre y de código abierto diseñado para manejar proyectos de cualquier tamaño con velocidad y eficiencia. 
 
@@ -57,7 +57,7 @@ git config --global user.email "tu correo electrónico"
 ```
 
 
-## Para configurar una clave SSH en GitHub desde tu local, sigue los siguientes pasos:
+### Para configurar una clave SSH en GitHub desde tu local, sigue los siguientes pasos:
 
 1. Verifica si ya tienes una clave SSH existente en tu computadora ejecutando el siguiente comando en la línea de comando: `ls -al ~/.ssh` Si ya tienes una clave SSH, verás una lista de archivos que comienzan con "id_rsa" o "id_dsa". Si no tienes una clave SSH, puedes generar una con el siguiente comando: `ssh-keygen -t rsa -b 4096 -C "tu correo electrónico"`.
 
@@ -146,7 +146,7 @@ Puedes usar el dashboard para ver tus contenedores, imagenes y volumenes
 
 4. **Puerto de escucha:** Si tu aplicación escucha en un puerto específico, asegúrate de exponer ese puerto al contenedor Docker. Puedes hacer esto utilizando el argumento -p del comando docker run. Por ejemplo, docker run -p 8080:8080 nombre_de_la_imagen expondrá el puerto 8080 del contenedor al puerto 8080 del host. Sino, por defecto se asigna el puerto 3000
 
-# Dependencias
+# Dependencias de Python
 
 Las dependencias de Python son módulos o bibliotecas que una aplicación de Python utiliza para su correcto funcionamiento. 
 
