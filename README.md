@@ -1,6 +1,6 @@
 # Práctico 1 - ML en Producción
 
-En este praáctico abordaremos algunos conceptos básicos sobre: 
+En este práctico abordaremos algunos conceptos básicos sobre: 
 
 - Git 
 - Docker
