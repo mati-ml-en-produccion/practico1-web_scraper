@@ -173,7 +173,7 @@ Por ejemplo, `requests==2.26.0` especifica la biblioteca Requests en la versión
 
 2.   Instala el CLI de Azure siguiendo las instrucciones que se encuentran en la documentación oficial: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 
-3. Después de instalar el CLI de Azure, ejecuta el siguiente comando en la terminal para iniciar sesión en tu cuenta de Azure:  `az login`
+3. Después de instalar el CLI de Azure, ejecuta el siguiente comando en la terminal para iniciar sesión en tu cuenta de Azure:  `az login --use-device-code`
 
    **Para Mac:** `brew update && brew install azure-cli`
 
