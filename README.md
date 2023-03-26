@@ -5,7 +5,8 @@ En este práctico abordaremos algunos conceptos básicos sobre:
 - Git 
 - Docker
 - Dependencias en Python
-- Además veremos un ejemplo que engloba todos los puntos. 
+- Ejemplo
+- Conectarte a Azure Cloud mediante CLI
 
 # Git
 
@@ -166,3 +167,21 @@ Bibliotecas de Python: Se enumeran las bibliotecas de terceros que se utilizan e
 
 Por ejemplo, `requests==2.26.0` especifica la biblioteca Requests en la versión 2.26.0. y `requests`, no especifica la versión. 
 
+# Conectarte a Azure desde tu entorno local. 
+
+1.   Abre una terminal en tu máquina local.
+
+2.   Instala el CLI de Azure siguiendo las instrucciones que se encuentran en la documentación oficial: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
+
+3. Después de instalar el CLI de Azure, ejecuta el siguiente comando en la terminal para iniciar sesión en tu cuenta de Azure:  `az login`
+
+   **Para Mac:** `brew update && brew install azure-cli`
+
+   **Para Windows:** [Windows Installer](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
+
+   **Para Linux:** [Linux Installer](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+)
+
+  El comando `az login --use-device-code` abrirá una ventana de tu navegador predeterminado y te pedirá que inicies sesión en tu cuenta de Azure. 
+
+Luego de eso te habras autenticado correctamente con **AzureCloud**
