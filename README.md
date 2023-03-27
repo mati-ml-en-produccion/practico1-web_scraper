@@ -65,7 +65,7 @@ git config --global user.email "tu correo electrónico"
 
 2. Copia la clave pública de SSH en tu portapapeles dependiendo de tu sistema operativo.
 
-  **Para sistemas Mac**: `~/.ssh/id_rsa.pub | pbcopy`
+  **Para sistemas Mac**: ` cat ~/.ssh/id_rsa.pub | pbcopy`
 
   **Para sistemas Linux:** `cat ~/.ssh/id_rsa.pub | xclip -selection clipboard`
 
